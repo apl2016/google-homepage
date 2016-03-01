@@ -11,11 +11,11 @@ html, body {
 	min-height: 100%;
 	height: auto !important;
 	height: 100%;
-	margin: 0 auto -4em;
+	margin: 0 auto -3.5em;  /* make same size as .footer and .push height below */
 }
 
 .footer, .push { 
-	height: 4em;
+	height: 3.5em;
 }
 
 img {
@@ -97,10 +97,10 @@ a#signin {
 #footbar a {
     display: inline-block;
     text-align: center;
-    padding: 7px 12px;
+    padding: 12px 14px;
     border-radius: 3px;
     color: #000;
-    font-family: Arial;
+    font-family: arial;
     font-size: 13px;
     text-decoration: none;
     opacity: .75;
@@ -110,6 +110,9 @@ a#signin {
 	float: left;
 }
 
+#farleft_foot {
+    margin-left: -20px;
+}
 
 
 
